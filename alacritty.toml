@@ -1,0 +1,52 @@
+# Font
+[font]
+size = 18
+# normal = { family = "JetBrains Mono", style = "Regular" }
+
+# Window
+[window]
+padding = { x = 8, y = 8 }
+decorations = "buttonless"
+opacity = 1.0
+
+[window.dimensions]
+columns = 140
+lines = 24
+
+# Colors (black background)
+[colors.primary]
+background = "#000000"
+foreground = "#eaeaea"
+
+[colors.normal]
+black = "#000000"
+red = "#ff5f56"
+green = "#5af78e"
+yellow = "#f3f99d"
+blue = "#57c7ff"
+magenta = "#ff6ac1"
+cyan = "#9aedfe"
+white = "#f1f1f0"
+
+[colors.bright]
+black = "#686868"
+red = "#ff5f56"
+green = "#5af78e"
+yellow = "#f3f99d"
+blue = "#57c7ff"
+magenta = "#ff6ac1"
+cyan = "#9aedfe"
+white = "#ffffff"
+
+
+# [editor]
+# command = "zed"
+# args = ["--wait"]
+
+[[hints.enabled]]
+regex = "((?:~|/|\\./|\\.\\./)?[^\\s:]+(?:/[^\\s:]+)+)"
+command = { program = "sh", args = ["-lc", "zed \"$(realpath \"$1\")\"", "zed"] }
+
+[hints.enabled.mouse]
+enabled = true
+mods = 'Control'
