@@ -10,7 +10,7 @@ decorations = "buttonless"
 opacity = 1.0
 
 [window.dimensions]
-columns = 140
+columns = 170
 lines = 24
 
 # Colors (black background)
