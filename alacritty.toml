@@ -47,6 +47,10 @@ white = "#ffffff"
 regex = "((?:~|/|\\./|\\.\\./)?[^\\s:]+(?:/[^\\s:]+)+)"
 command = { program = "sh", args = ["-lc", "zed \"$(realpath \"$1\")\"", "zed"] }
 
+[[hints.enabled]]
+regex = "(https?|ftp)://[^\\s/$.?#].[^\\s]*"
+command = "open"
+
 [hints.enabled.mouse]
 enabled = true
 mods = 'Control'
