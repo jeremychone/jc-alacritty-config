@@ -1,6 +1,6 @@
 # Font
 [font]
-size = 18
+size = 16
 normal = { family = "MesloLGS Nerd Font", style = "Regular" }
 
 # Window
