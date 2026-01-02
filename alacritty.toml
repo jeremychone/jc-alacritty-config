@@ -43,10 +43,12 @@ white = "#ffffff"
 # command = "zed"
 # args = ["--wait"]
 
+# Open file paths with Zed
 [[hints.enabled]]
 regex = "((?:~|/|\\./|\\.\\./)?[^\\s:]+(?:/[^\\s:]+)+)"
 command = { program = "sh", args = ["-lc", "zed \"$(realpath \"$1\")\"", "zed"] }
 
+# Open URL like with default browser
 [[hints.enabled]]
 regex = "(https?|ftp)://[^\\s/$.?#].[^\\s]*"
 command = "open"
