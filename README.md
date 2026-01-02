@@ -8,6 +8,10 @@ Related repos:
 - [jc-tmux-config](https://github.com/jeremychone/jc-tmux-config)
 - [jc-alacritty-config (this one)](https://github.com/jeremychone/jc-alacritty-config)
 
+## Setup
+
+- [Nerd Fonts](https://www.nerdfonts.com/font-downloads) `MesloLGS Nerd Font`
+- Copy or git clone repo into `~/.config/alacritty/alacritty.toml`
 
 ## Features
 
@@ -16,10 +20,3 @@ Related repos:
 - **Hints**:
     - File paths: Automatically opens in Zed using `Control + Click`.
     - URLs: Standard web link support.
-
-## Setup
-
-Place `alacritty.toml` in your Alacritty configuration directory.
-
-- `~/.config/alacritty/alacritty.toml`
-- Linux: `~/.config/alacritty/alacritty.toml`
