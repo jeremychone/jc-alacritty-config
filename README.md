@@ -1,14 +1,14 @@
 # Jeremy Chone Alacritty Config
 
-Just sharing, cherry-pick what you need.
+Just to share, cherry-pick what you need. 
 
-Related repos:
-- [jc-zed-config](https://github.com/jeremychone/jc-zed-config)
-- [jc-zed-tasks](https://github.com/jeremychone/jc-zed-tasks)
+Related Repos: 
+- [jc-zed-config](https://github.com/jeremychone/jc-zed-config), Theme, snippets, shortcuts, and more
+- [jc-zed-tasks](https://github.com/jeremychone/jc-zed-tasks), Save clipboard to image, HTML to MD
 - [jc-tmux-config](https://github.com/jeremychone/jc-tmux-config)
-- [jc-alacritty-config (this one)](https://github.com/jeremychone/jc-alacritty-config)
+- **[jc-alacritty-config (this one)](https://github.com/jeremychone/jc-alacritty-config)**
+- [jc-hammer](https://github.com/jeremychone/jc-hammer), `jc.spoon` for [Hammerspoon](https://www.hammerspoon.org/), Open/Close Zed projects and position term
 
-## Setup
 
 - [Nerd Fonts](https://www.nerdfonts.com/font-downloads) `MesloLGS Nerd Font`
 - Copy or git clone repo into `~/.config/alacritty/alacritty.toml`
