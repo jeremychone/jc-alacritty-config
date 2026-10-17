@@ -11,6 +11,7 @@ normal = { family = "MesloLGS Nerd Font", style = "Regular" }
 padding = { x = 8, y = 8 }
 decorations = "buttonless"
 opacity = 1.0
+option_as_alt = "Both" # So that zcoder can have the `alt+enter as new line`
 
 [window.dimensions]
 columns = 200
